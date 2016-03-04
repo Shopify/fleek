@@ -1,7 +1,7 @@
 PATH
   remote: ../../
   specs:
-    fleek (0.1.0)
+    fleek (0.1.2)
       actioncable (>= 5.0.0.beta3, < 5.1)
       actionview (>= 5.0.0.beta3, < 5.1)
       listen (~> 3.0.5)
