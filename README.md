@@ -1,6 +1,6 @@
 # Fleek
 
-Fleek makes sure your styles stay hot.
+Fleek makes sure your styles stay hot. Requires rails 5+.
 
 ## Installation
 
