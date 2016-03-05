@@ -9,7 +9,7 @@ module Fleek
       }.join("\n").html_safe + javascript_tag do
         <<-JS.html_safe
 (function(){
-var ws = new WebSocket((location.protocol === "https:" ? "wss:" : "ws:") + "//" + location.host + "/.fleek-connection");
+var ws = new WebSocket((location.protocol === "https:" ? "wss:" : "ws:") + "//" + location.host + #{Fleek::Server.config.mount_path.to_json});
 ws.onopen = function() {
   ws.send(JSON.stringify({
     "identifier": "register_assets",

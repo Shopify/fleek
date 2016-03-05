@@ -10,7 +10,7 @@ module Fleek
         end
 
         def mount_path
-          '/.well-known/flee'
+          '/.fleek-connection'
         end
 
         def logger
